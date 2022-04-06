@@ -1,0 +1,112 @@
+[debug] :: building artificial module descriptors from default#scala_crawler$sources;0.1
+[debug] ::: dd: dependency: org.scala-lang#scala-library;2.12.8 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master, master(*)]} (artifacts: scala-library:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: scala-xml_2.12:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.jsoup#jsoup;1.8.3 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: jsoup:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: io.netty#netty;3.10.6.Final {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: netty:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.slf4j#slf4j-api;1.7.12 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: slf4j-api:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.ning#async-http-client;1.9.40 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: async-http-client:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, compile, runtime, optional, optional(default), master]} (artifacts: scala-compiler:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.typesafe#config;1.3.3 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: config:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang#scala-reflect;2.12.8 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: scala-reflect:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: jline#jline;2.14.6 {scala-tool=[compile, master(compile), compile(*), master]} (artifacts: jline:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: com.typesafe.akka#akka-actor_2.12;2.5.21 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: akka-actor_2.12:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: scala-java8-compat_2.12:src:jar:{classifier=sources})
+[debug] parsing /Users/anujgautam/.sbt/1.0/dependency/module/static/org.scala-lang/scala-library/2.12.8_temp-resolve-ad4840e1d5dbd828299d8df32e0c3a2714b38ca8/graphs/graph.json
+[debug] parsing /Users/anujgautam/.sbt/1.0/dependency/module/static/org.scala-lang.modules/scala-xml_2.12/1.0.6_temp-resolve-f06186a2ad6ec5a137b97652c9f04faf6bd29306/graphs/graph.json
+[debug] parsing /Users/anujgautam/.sbt/1.0/dependency/module/static/org.jsoup/jsoup/1.8.3_temp-resolve-66465d270d590bb76cb782b59d16cfb838720248/graphs/graph.json
+[debug] parsing /Users/anujgautam/.sbt/1.0/dependency/module/static/io.netty/netty/3.10.6.Final_temp-resolve-3ec4a0dcf7341bdb70f8ea3c207af3e06addc451/graphs/graph.json
+[debug] parsing /Users/anujgautam/.sbt/1.0/dependency/module/static/org.slf4j/slf4j-api/1.7.12_temp-resolve-98183e27be771af556b823d8540c7a33b8a005e3/graphs/graph.json
+[debug] parsing /Users/anujgautam/.sbt/1.0/dependency/module/static/com.ning/async-http-client/1.9.40_temp-resolve-c4de6501d091a7d7b1bf7c10c52f7b95f60d6ca7/graphs/graph.json
+[debug] parsing /Users/anujgautam/.sbt/1.0/dependency/module/static/org.scala-lang/scala-compiler/2.12.8_temp-resolve-0ac1fc972cefb429bfa574818c1379dc98eadda9/graphs/graph.json
+[debug] parsing /Users/anujgautam/.sbt/1.0/dependency/module/static/com.typesafe/config/1.3.3_temp-resolve-dabdb2bc2eadd97f736217a39172e748b1c20a65/graphs/graph.json
+[debug] parsing /Users/anujgautam/.sbt/1.0/dependency/module/static/org.scala-lang/scala-reflect/2.12.8_temp-resolve-4c82618afe05d21ae56ea342856e33826dd68641/graphs/graph.json
+[debug] parsing /Users/anujgautam/.sbt/1.0/dependency/module/static/jline/jline/2.14.6_temp-resolve-ea0a996593bd155d8a0f1458487e7b81094a092e/graphs/graph.json
+[debug] parsing /Users/anujgautam/.sbt/1.0/dependency/module/static/com.typesafe.akka/akka-actor_2.12/2.5.21_temp-resolve-21c7d2bedddf848627d3c2e4cd38b327d48ebba9/graphs/graph.json
+[debug] parsing /Users/anujgautam/.sbt/1.0/dependency/module/static/org.scala-lang.modules/scala-java8-compat_2.12/0.8.0_temp-resolve-87d8e1988dcda431f4c56d7d208dab1b2db39f81/graphs/graph.json
+[debug] :: merging update reports
+[debug] ::: -----------
+[debug] :: compile: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library, org.jsoup:jsoup, io.netty:netty, org.slf4j:slf4j-api, com.ning:async-http-client, com.typesafe:config, com.typesafe.akka:akka-actor_2.12, org.scala-lang.modules:scala-java8-compat_2.12
+[debug] :: no conflict compile: org.scala-lang:scala-library
+[debug] :: no conflict compile: org.jsoup:jsoup
+[debug] :: no conflict compile: io.netty:netty
+[debug] :: no conflict compile: org.slf4j:slf4j-api
+[debug] :: no conflict compile: com.ning:async-http-client
+[debug] :: no conflict compile: com.typesafe:config
+[debug] :: no conflict compile: com.typesafe.akka:akka-actor_2.12
+[debug] :: no conflict compile: org.scala-lang.modules:scala-java8-compat_2.12
+[debug] ::: -----------
+[debug] :: runtime: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library, org.jsoup:jsoup, io.netty:netty, org.slf4j:slf4j-api, com.ning:async-http-client, com.typesafe:config, com.typesafe.akka:akka-actor_2.12, org.scala-lang.modules:scala-java8-compat_2.12
+[debug] :: no conflict runtime: org.scala-lang:scala-library
+[debug] :: no conflict runtime: org.jsoup:jsoup
+[debug] :: no conflict runtime: io.netty:netty
+[debug] :: no conflict runtime: org.slf4j:slf4j-api
+[debug] :: no conflict runtime: com.ning:async-http-client
+[debug] :: no conflict runtime: com.typesafe:config
+[debug] :: no conflict runtime: com.typesafe.akka:akka-actor_2.12
+[debug] :: no conflict runtime: org.scala-lang.modules:scala-java8-compat_2.12
+[debug] ::: -----------
+[debug] :: test: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library, org.jsoup:jsoup, io.netty:netty, org.slf4j:slf4j-api, com.ning:async-http-client, com.typesafe:config, com.typesafe.akka:akka-actor_2.12, org.scala-lang.modules:scala-java8-compat_2.12
+[debug] :: no conflict test: org.scala-lang:scala-library
+[debug] :: no conflict test: org.jsoup:jsoup
+[debug] :: no conflict test: io.netty:netty
+[debug] :: no conflict test: org.slf4j:slf4j-api
+[debug] :: no conflict test: com.ning:async-http-client
+[debug] :: no conflict test: com.typesafe:config
+[debug] :: no conflict test: com.typesafe.akka:akka-actor_2.12
+[debug] :: no conflict test: org.scala-lang.modules:scala-java8-compat_2.12
+[debug] ::: -----------
+[debug] :: provided: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: optional: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: compile-internal: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library, org.jsoup:jsoup, io.netty:netty, org.slf4j:slf4j-api, com.ning:async-http-client, com.typesafe:config, com.typesafe.akka:akka-actor_2.12, org.scala-lang.modules:scala-java8-compat_2.12
+[debug] :: no conflict compile-internal: org.scala-lang:scala-library
+[debug] :: no conflict compile-internal: org.jsoup:jsoup
+[debug] :: no conflict compile-internal: io.netty:netty
+[debug] :: no conflict compile-internal: org.slf4j:slf4j-api
+[debug] :: no conflict compile-internal: com.ning:async-http-client
+[debug] :: no conflict compile-internal: com.typesafe:config
+[debug] :: no conflict compile-internal: com.typesafe.akka:akka-actor_2.12
+[debug] :: no conflict compile-internal: org.scala-lang.modules:scala-java8-compat_2.12
+[debug] ::: -----------
+[debug] :: runtime-internal: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library, org.jsoup:jsoup, io.netty:netty, org.slf4j:slf4j-api, com.ning:async-http-client, com.typesafe:config, com.typesafe.akka:akka-actor_2.12, org.scala-lang.modules:scala-java8-compat_2.12
+[debug] :: no conflict runtime-internal: org.scala-lang:scala-library
+[debug] :: no conflict runtime-internal: org.jsoup:jsoup
+[debug] :: no conflict runtime-internal: io.netty:netty
+[debug] :: no conflict runtime-internal: org.slf4j:slf4j-api
+[debug] :: no conflict runtime-internal: com.ning:async-http-client
+[debug] :: no conflict runtime-internal: com.typesafe:config
+[debug] :: no conflict runtime-internal: com.typesafe.akka:akka-actor_2.12
+[debug] :: no conflict runtime-internal: org.scala-lang.modules:scala-java8-compat_2.12
+[debug] ::: -----------
+[debug] :: test-internal: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library, org.jsoup:jsoup, io.netty:netty, org.slf4j:slf4j-api, com.ning:async-http-client, com.typesafe:config, com.typesafe.akka:akka-actor_2.12, org.scala-lang.modules:scala-java8-compat_2.12
+[debug] :: no conflict test-internal: org.scala-lang:scala-library
+[debug] :: no conflict test-internal: org.jsoup:jsoup
+[debug] :: no conflict test-internal: io.netty:netty
+[debug] :: no conflict test-internal: org.slf4j:slf4j-api
+[debug] :: no conflict test-internal: com.ning:async-http-client
+[debug] :: no conflict test-internal: com.typesafe:config
+[debug] :: no conflict test-internal: com.typesafe.akka:akka-actor_2.12
+[debug] :: no conflict test-internal: org.scala-lang.modules:scala-java8-compat_2.12
+[debug] ::: -----------
+[debug] :: plugin: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: pom: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: scala-tool: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library, org.scala-lang.modules:scala-xml_2.12, org.scala-lang:scala-compiler, org.scala-lang:scala-reflect, jline:jline
+[debug] :: no conflict scala-tool: org.scala-lang:scala-library
+[debug] :: no conflict scala-tool: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict scala-tool: org.scala-lang:scala-compiler
+[debug] :: no conflict scala-tool: org.scala-lang:scala-reflect
+[debug] :: no conflict scala-tool: jline:jline

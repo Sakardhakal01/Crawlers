@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-resolve-4a377161e5f3be4586ab5f09ceeda7d1c57b04ad"
+		revision="1.0"
+		conf="scala-tool"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190320174235"/>
+	<dependencies>
+		<module organisation="jline" name="jline">
+			<revision name="2.14.3" status="release" pubdate="20170106153157" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(compile), compile(*), master" position="0">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="5183" time="0" location="/Users/anujgautam/.ivy2/cache/jline/jline/ivy-2.14.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/2.14.3/jline-2.14.3.pom"/>
+				<caller organisation="org.scala-sbt.temp" name="temp-resolve-4a377161e5f3be4586ab5f09ceeda7d1c57b04ad" conf="scala-tool" rev="2.14.3" rev-constraint-default="2.14.3" rev-constraint-dynamic="2.14.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jline" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="110147" time="1549" location="/Users/anujgautam/.ivy2/cache/jline/jline/srcs/jline-2.14.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jline/jline/2.14.3/jline-2.14.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

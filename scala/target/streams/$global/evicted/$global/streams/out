@@ -1,0 +1,127 @@
+[0m[[0m[0minfo[0m] [0m[0mUpdating ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: building artificial module descriptors from default#scala_crawler_2.12;0.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: dd: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} (artifacts: )[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: dd: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) (artifacts: )[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: dd: dependency: com.typesafe.akka#akka-actor_2.12.0-M5;2.4.8 {compile=[default(compile)]} (artifacts: )[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: dd: dependency: com.ning#async-http-client;1.9.40 {compile=[default(compile)]} (artifacts: )[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: dd: dependency: org.jsoup#jsoup;1.8.3 {compile=[default(compile)]} (artifacts: )[0m
+[0m[[0m[0mdebug[0m] [0m[0mparsing /Users/anujgautam/.sbt/1.0/dependency/module/static/org.scala-lang/scala-compiler/2.12.8_temp-resolve-7ff7097044a60343ec913c69a6e8a740e301349d/graphs/graph.json[0m
+[0m[[0m[0mdebug[0m] [0m[0mparsing /Users/anujgautam/.sbt/1.0/dependency/module/static/org.scala-lang/scala-library/2.12.8_temp-resolve-e92758d28a00faab54f8b344dd783a3cbca9fa72/graphs/graph.json[0m
+[0m[[0m[0mdebug[0m] [0m[0mparsing /Users/anujgautam/.sbt/1.0/dependency/module/static/com.typesafe.akka/akka-actor_2.12.0-M5/2.4.8_temp-resolve-1d4c91f12f6d647662434815fbd5d5c1aeb2e1ba/graphs/graph.json[0m
+[0m[[0m[0mdebug[0m] [0m[0mparsing /Users/anujgautam/.sbt/1.0/dependency/module/static/com.ning/async-http-client/1.9.40_temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db/graphs/graph.json[0m
+[0m[[0m[0mdebug[0m] [0m[0mparsing /Users/anujgautam/.sbt/1.0/dependency/module/static/org.jsoup/jsoup/1.8.3_temp-resolve-0952d5755d932f7ae8f70557109a0a9f7f464b06/graphs/graph.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging update reports[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: compile: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: com.typesafe.akka:akka-actor_2.12.0-M5, com.ning:async-http-client, org.jsoup:jsoup, org.scala-lang.modules:scala-java8-compat_2.12.0-M5, com.typesafe:config, org.slf4j:slf4j-api, io.netty:netty, org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile: com.typesafe.akka:akka-actor_2.12.0-M5[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile: com.ning:async-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile: org.jsoup:jsoup[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile: org.scala-lang.modules:scala-java8-compat_2.12.0-M5[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile: org.slf4j:slf4j-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile: io.netty:netty[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in compile:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.0-M5 (), org.scala-lang:scala-library:2.12.8 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m- Using latest-revision with Vector(ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.0-M5 (), 2.12.0-M5, 1467197211000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.12.8 (), 2.12.8, 1543918556000))[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.12.8 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.12.0-M5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: runtime: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: com.typesafe.akka:akka-actor_2.12.0-M5, com.ning:async-http-client, org.jsoup:jsoup, org.scala-lang.modules:scala-java8-compat_2.12.0-M5, com.typesafe:config, org.slf4j:slf4j-api, io.netty:netty, org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime: com.typesafe.akka:akka-actor_2.12.0-M5[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime: com.ning:async-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime: org.jsoup:jsoup[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime: org.scala-lang.modules:scala-java8-compat_2.12.0-M5[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime: org.slf4j:slf4j-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime: io.netty:netty[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in runtime:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.0-M5 (), org.scala-lang:scala-library:2.12.8 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.12.8 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.12.0-M5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: test: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: com.typesafe.akka:akka-actor_2.12.0-M5, com.ning:async-http-client, org.jsoup:jsoup, org.scala-lang.modules:scala-java8-compat_2.12.0-M5, com.typesafe:config, org.slf4j:slf4j-api, io.netty:netty, org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.typesafe.akka:akka-actor_2.12.0-M5[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.ning:async-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: org.jsoup:jsoup[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: org.scala-lang.modules:scala-java8-compat_2.12.0-M5[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: org.slf4j:slf4j-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.netty:netty[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in test:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.0-M5 (), org.scala-lang:scala-library:2.12.8 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.12.8 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.12.0-M5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: provided: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: [0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: optional: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: [0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: compile-internal: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: com.typesafe.akka:akka-actor_2.12.0-M5, com.ning:async-http-client, org.jsoup:jsoup, org.scala-lang.modules:scala-java8-compat_2.12.0-M5, com.typesafe:config, org.slf4j:slf4j-api, io.netty:netty, org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.typesafe.akka:akka-actor_2.12.0-M5[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.ning:async-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.jsoup:jsoup[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.scala-lang.modules:scala-java8-compat_2.12.0-M5[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.slf4j:slf4j-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.netty:netty[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in compile-internal:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.0-M5 (), org.scala-lang:scala-library:2.12.8 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.12.8 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.12.0-M5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: runtime-internal: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: com.typesafe.akka:akka-actor_2.12.0-M5, com.ning:async-http-client, org.jsoup:jsoup, org.scala-lang.modules:scala-java8-compat_2.12.0-M5, com.typesafe:config, org.slf4j:slf4j-api, io.netty:netty, org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.typesafe.akka:akka-actor_2.12.0-M5[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.ning:async-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.jsoup:jsoup[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.scala-lang.modules:scala-java8-compat_2.12.0-M5[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.slf4j:slf4j-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.netty:netty[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in runtime-internal:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.0-M5 (), org.scala-lang:scala-library:2.12.8 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.12.8 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.12.0-M5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: test-internal: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: com.typesafe.akka:akka-actor_2.12.0-M5, com.ning:async-http-client, org.jsoup:jsoup, org.scala-lang.modules:scala-java8-compat_2.12.0-M5, com.typesafe:config, org.slf4j:slf4j-api, io.netty:netty, org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.typesafe.akka:akka-actor_2.12.0-M5[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.ning:async-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.jsoup:jsoup[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.scala-lang.modules:scala-java8-compat_2.12.0-M5[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.slf4j:slf4j-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.netty:netty[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in test-internal:org.scala-lang:scala-library (org.scala-lang:scala-library:2.12.0-M5 (), org.scala-lang:scala-library:2.12.8 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.12.8 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.12.0-M5 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: plugin: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: [0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: pom: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: [0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: scala-tool: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: org.scala-lang:scala-compiler, jline:jline, org.scala-lang.modules:scala-xml_2.12, org.scala-lang:scala-reflect, org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict scala-tool: org.scala-lang:scala-compiler[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict scala-tool: jline:jline[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict scala-tool: org.scala-lang.modules:scala-xml_2.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict scala-tool: org.scala-lang:scala-reflect[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for scala-tool: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.12.8 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
+[0m[[0m[0minfo[0m] [0m[0mDone updating.[0m
+[0m[[0m[0minfo[0m] [0m[0mHere are other dependency conflicts that were resolved:[0m
+[0m[[0m[0minfo[0m] [0m[0m	* org.scala-lang:scala-library:2.12.8 is selected over 2.12.0-M5[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- org.scala-sbt.temp:temp-resolve-e92758d28a00faab54f8b344dd783a3cbca9fa72:1.0 (depends on 2.12.8)[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- org.scala-lang.modules:scala-java8-compat_2.12.0-M5:0.8.0-RC3 (depends on 2.12.0-M5)[0m
+[0m[[0m[0minfo[0m] [0m[0m	    +- com.typesafe.akka:akka-actor_2.12.0-M5:2.4.8       (depends on 2.12.0-M5)[0m

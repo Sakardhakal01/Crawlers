@@ -1,0 +1,358 @@
+[0m[[0m[0minfo[0m] [0m[0mUpdating ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: building artificial module descriptors from scala_crawler#scala_crawler_2.11;0.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: dd: dependency: org.scala-lang#scala-compiler;2.11.11 {scala-tool=[default, optional(default)]} (artifacts: )[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: dd: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.11 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.11 {compile=[default(compile)]}) (artifacts: )[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: dd: dependency: com.typesafe.akka#akka-actor_2.11;2.5.21 {compile=[default(compile)]} (artifacts: )[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: dd: dependency: com.ning#async-http-client;1.9.40 {compile=[default(compile)]} (artifacts: )[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: dd: dependency: org.jsoup#jsoup;1.8.3 {compile=[default(compile)]} (artifacts: )[0m
+[0m[[0m[0mdebug[0m] [0m[0mparsing C:\Users\Sakar\.sbt\1.0\dependency\module\static\org.scala-lang\scala-compiler\2.11.11_temp-resolve-b08864f474f934b50e2808607a778ea23aeb0bbd\graphs\graph.json[0m
+[0m[[0m[0mdebug[0m] [0m[0mparsing C:\Users\Sakar\.sbt\1.0\dependency\module\static\org.scala-lang\scala-library\2.11.11_temp-resolve-a2327a4988b8b897776cc563c2b13a6b14568db5\graphs\graph.json[0m
+[0m[[0m[0mdebug[0m] [0m[0mparsing C:\Users\Sakar\.sbt\1.0\dependency\module\static\com.typesafe.akka\akka-actor_2.11\2.5.21_temp-resolve-1a726a35f65aa39047f6a12d7907a4fe2f33356a\graphs\graph.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: call ivy resolution: dependency: com.ning#async-http-client;1.9.40 {compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
+[0m[[0m[0mdebug[0m] [0m[0m	refresh = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: com.ning#async-http-client;1.9.40 {compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: com.ning#async-http-client;1.9.40[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found com.ning#async-http-client;1.9.40 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: io.netty#netty;3.10.6.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: io.netty#netty;3.10.6.Final[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found io.netty#netty;3.10.6.Final in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried C:\Users\Sakar\.ivy2\local\org.slf4j\slf4j-api\1.7.12\ivys\ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.slf4j#slf4j-api;1.7.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.slf4j#slf4j-api;1.7.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom (1.7.12)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.12!slf4j-api.pom(pom.original) (170ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.12 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.12 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried C:\Users\Sakar\.ivy2\local\org.slf4j\slf4j-parent\1.7.12\ivys\ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.slf4j#slf4j-parent;1.7.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.slf4j#slf4j-parent;1.7.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.pom (1.7.12)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.7.12!slf4j-parent.pom(pom.original) (179ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried C:\Users\Sakar\.ivy2\local\org.slf4j\slf4j-parent\1.7.12\jars\slf4j-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried C:\Users\Sakar\.sbt\preloaded\org.slf4j\slf4j-parent\1.7.12\jars\slf4j-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried file:/C:/Users/Sakar/.sbt/preloaded/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried http://repo.akka.io/snapshots/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Forbidden url=http://repo.akka.io/snapshots/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://dl.bintray.com/typesafe/maven-releases/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://dl.bintray.com/typesafe/maven-releases/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried http://download.java.net/maven/2/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=http://download.java.net/maven/2/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://mvnrepository.com/artifact/com.ning/async-http-client/1.9.40/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR:  url=https://mvnrepository.com/artifact/com.ning/async-http-client/1.9.40/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried C:\Users\Sakar\.ivy2\local\org.slf4j\slf4j-api\1.7.12\jars\slf4j-api.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.slf4j#slf4j-api;1.7.12 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'provided'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'optional'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [compile-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [runtime-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [test-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->io.netty#netty;3.10.6.Final [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies com.ning#async-http-client;1.9.40->org.slf4j#slf4j-api;1.7.12 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0->com.ning#async-http-client;1.9.40 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [plugin][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'pom'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [pom][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 [scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.ning#async-http-client;1.9.40!async-http-client.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\Sakar\.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty;3.10.6.Final!netty.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\Sakar\.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Sakar/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Sakar/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\Sakar\.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Sakar/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\Sakar\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Sakar/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\Sakar\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Sakar/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\Sakar\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Sakar/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Sakar/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Sakar/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Sakar/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Sakar/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Sakar/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Sakar/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Sakar/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Sakar/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (60ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\Sakar\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (70ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\Sakar\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/Sakar/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (50ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\Sakar\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar (190ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 4332ms :: artifacts dl 230ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 compile produced in C:\Users\Sakar\Desktop\asd\crawlers\scala\target\scala-2.11\resolution-cache\reports\scala_crawler-scala_crawler_2.11-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 runtime produced in C:\Users\Sakar\Desktop\asd\crawlers\scala\target\scala-2.11\resolution-cache\reports\scala_crawler-scala_crawler_2.11-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 test produced in C:\Users\Sakar\Desktop\asd\crawlers\scala\target\scala-2.11\resolution-cache\reports\scala_crawler-scala_crawler_2.11-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 provided produced in C:\Users\Sakar\Desktop\asd\crawlers\scala\target\scala-2.11\resolution-cache\reports\scala_crawler-scala_crawler_2.11-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 optional produced in C:\Users\Sakar\Desktop\asd\crawlers\scala\target\scala-2.11\resolution-cache\reports\scala_crawler-scala_crawler_2.11-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 compile-internal produced in C:\Users\Sakar\Desktop\asd\crawlers\scala\target\scala-2.11\resolution-cache\reports\scala_crawler-scala_crawler_2.11-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 runtime-internal produced in C:\Users\Sakar\Desktop\asd\crawlers\scala\target\scala-2.11\resolution-cache\reports\scala_crawler-scala_crawler_2.11-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 test-internal produced in C:\Users\Sakar\Desktop\asd\crawlers\scala\target\scala-2.11\resolution-cache\reports\scala_crawler-scala_crawler_2.11-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 plugin produced in C:\Users\Sakar\Desktop\asd\crawlers\scala\target\scala-2.11\resolution-cache\reports\scala_crawler-scala_crawler_2.11-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 pom produced in C:\Users\Sakar\Desktop\asd\crawlers\scala\target\scala-2.11\resolution-cache\reports\scala_crawler-scala_crawler_2.11-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db;1.0 scala-tool produced in C:\Users\Sakar\Desktop\asd\crawlers\scala\target\scala-2.11\resolution-cache\reports\scala_crawler-scala_crawler_2.11-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (4332ms resolve - 230ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0msaving minigraph to C:\Users\Sakar\.sbt\1.0\dependency\module\static\com.ning\async-http-client\1.9.40_temp-resolve-2bb52de623d61d47d2597e7c89c6a918e51f34db\graphs\graph.json[0m
+[0m[[0m[0mdebug[0m] [0m[0mparsing C:\Users\Sakar\.sbt\1.0\dependency\module\static\org.jsoup\jsoup\1.8.3_temp-resolve-0952d5755d932f7ae8f70557109a0a9f7f464b06\graphs\graph.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging update reports[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: compile: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: com.typesafe.akka:akka-actor_2.11, com.ning:async-http-client, org.jsoup:jsoup, org.scala-lang.modules:scala-java8-compat_2.11, com.typesafe:config, org.slf4j:slf4j-api, io.netty:netty, org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile: com.typesafe.akka:akka-actor_2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile: com.ning:async-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile: org.jsoup:jsoup[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile: org.scala-lang.modules:scala-java8-compat_2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile: org.slf4j:slf4j-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile: io.netty:netty[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in compile:org.scala-lang:scala-library (org.scala-lang:scala-library:2.11.11 (), org.scala-lang:scala-library:2.11.12 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m- Using latest-revision with Vector(ModuleReportArtifactInfo(org.scala-lang:scala-library:2.11.11 (), 2.11.11, 1492113031000), ModuleReportArtifactInfo(org.scala-lang:scala-library:2.11.12 (), 2.11.12, 1509673050000))[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.11.12 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.11.11 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: runtime: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: com.typesafe.akka:akka-actor_2.11, com.ning:async-http-client, org.jsoup:jsoup, org.scala-lang.modules:scala-java8-compat_2.11, com.typesafe:config, org.slf4j:slf4j-api, io.netty:netty, org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime: com.typesafe.akka:akka-actor_2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime: com.ning:async-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime: org.jsoup:jsoup[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime: org.scala-lang.modules:scala-java8-compat_2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime: org.slf4j:slf4j-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime: io.netty:netty[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in runtime:org.scala-lang:scala-library (org.scala-lang:scala-library:2.11.11 (), org.scala-lang:scala-library:2.11.12 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.11.12 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.11.11 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: test: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: com.typesafe.akka:akka-actor_2.11, com.ning:async-http-client, org.jsoup:jsoup, org.scala-lang.modules:scala-java8-compat_2.11, com.typesafe:config, org.slf4j:slf4j-api, io.netty:netty, org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.typesafe.akka:akka-actor_2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.ning:async-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: org.jsoup:jsoup[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: org.scala-lang.modules:scala-java8-compat_2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: org.slf4j:slf4j-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test: io.netty:netty[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in test:org.scala-lang:scala-library (org.scala-lang:scala-library:2.11.11 (), org.scala-lang:scala-library:2.11.12 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.11.12 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.11.11 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: provided: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: [0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: optional: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: [0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: compile-internal: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: com.typesafe.akka:akka-actor_2.11, com.ning:async-http-client, org.jsoup:jsoup, org.scala-lang.modules:scala-java8-compat_2.11, com.typesafe:config, org.slf4j:slf4j-api, io.netty:netty, org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.typesafe.akka:akka-actor_2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.ning:async-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.jsoup:jsoup[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.scala-lang.modules:scala-java8-compat_2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: org.slf4j:slf4j-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict compile-internal: io.netty:netty[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for compile-internal: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in compile-internal:org.scala-lang:scala-library (org.scala-lang:scala-library:2.11.11 (), org.scala-lang:scala-library:2.11.12 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.11.12 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.11.11 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: runtime-internal: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: com.typesafe.akka:akka-actor_2.11, com.ning:async-http-client, org.jsoup:jsoup, org.scala-lang.modules:scala-java8-compat_2.11, com.typesafe:config, org.slf4j:slf4j-api, io.netty:netty, org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.typesafe.akka:akka-actor_2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.ning:async-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.jsoup:jsoup[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.scala-lang.modules:scala-java8-compat_2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: org.slf4j:slf4j-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict runtime-internal: io.netty:netty[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for runtime-internal: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in runtime-internal:org.scala-lang:scala-library (org.scala-lang:scala-library:2.11.11 (), org.scala-lang:scala-library:2.11.12 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.11.12 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.11.11 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: test-internal: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: com.typesafe.akka:akka-actor_2.11, com.ning:async-http-client, org.jsoup:jsoup, org.scala-lang.modules:scala-java8-compat_2.11, com.typesafe:config, org.slf4j:slf4j-api, io.netty:netty, org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.typesafe.akka:akka-actor_2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.ning:async-http-client[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.jsoup:jsoup[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.scala-lang.modules:scala-java8-compat_2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: com.typesafe:config[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: org.slf4j:slf4j-api[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict test-internal: io.netty:netty[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for test-internal: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: resolving conflict in test-internal:org.scala-lang:scala-library (org.scala-lang:scala-library:2.11.11 (), org.scala-lang:scala-library:2.11.12 ())[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.11.12 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted org.scala-lang:scala-library:2.11.11 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: plugin: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: [0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: pom: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: [0m
+[0m[[0m[0mdebug[0m] [0m[0m::: -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: scala-tool: loop: List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: sort result: org.scala-lang:scala-compiler, jline:jline, org.scala-lang.modules:scala-parser-combinators_2.11, org.scala-lang.modules:scala-xml_2.11, org.scala-lang:scala-reflect, org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict scala-tool: org.scala-lang:scala-compiler[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict scala-tool: jline:jline[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict scala-tool: org.scala-lang.modules:scala-parser-combinators_2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict scala-tool: org.scala-lang.modules:scala-xml_2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: no conflict scala-tool: org.scala-lang:scala-reflect[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: merging module reports for scala-tool: org.scala-lang:scala-library[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: adds org.scala-lang:scala-library:2.11.11 ()[0m
+[0m[[0m[0mdebug[0m] [0m[0m::: evicted [0m
+[0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
+[0m[[0m[0minfo[0m] [0m[0mDone updating.[0m
+[0m[[0m[33mwarn[0m] [0m[0mThere may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m
